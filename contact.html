@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Gayathri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner" style="max-width:1100px; margin:auto; padding:14px 20px; display:flex; align-items:center; justify-content:space-between; gap:16px;">
+    <div class="brand">Gayathri Latsumanasamy</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="internship.html">Internship</a>
+        <a href="certification.html">Certification</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <h1>Contact Me</h1>
+    <p class="mt-8">Have an opportunity or thoughts to share? I’d love to hear from you.</p>
+  </section>
+
+  <form class="section" action="#" method="post">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+    <label for="phone">Contact Number</label>
+    <input id="phone" name="phone" type="tel" placeholder="10-digit number" pattern="[0-9]{10}" required>
+    <div class="helper">Use digits only (e.g., 9876543210)</div>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+    <div class="form-actions">
+      <button type="submit">Send Message</button>
+      <a class="btn ghost" href="index.html">Back to Home</a>
+    </div>
+  </form>
+</main>
+
+<footer>
+  &copy; 2025 Gayathri Latsumanasamy. All rights reserved.
+</footer>
+</body>
+</html>
